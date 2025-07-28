@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f1f3f6;
+  color: #333;
+}
+
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  background-color: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.add-task-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.add-task-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.refresh-button {
+  background-color: #2ecc71;
+  margin-bottom: 15px;
+}
+
+.refresh-button:hover {
+  background-color: #27ae60;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafbfc;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  transition: box-shadow 0.2s ease;
+}
+
+.task-item:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.task-content {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.task-content h3 {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+}
+
+.task-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.pagination-controls button {
+  background-color: #7f8c8d;
+}
+
+.pagination-controls button:hover {
+  background-color: #636e72;
+}
+
+.pagination-controls span {
+  font-weight: 500;
+  color: #2d3436;
+}
+
+.task-content .due-date {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #888;
+}
+
+.view-toggle button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #888;
+  background: white;
+  cursor: pointer;
+}
+.view-toggle .active {
+  background: #0d6efd;
+  color: white;
+}
