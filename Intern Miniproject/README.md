@@ -38,27 +38,8 @@ Welcome to your first miniproject! 🎉 This is a fun and educational challenge 
 ### Validation Tests
 - Example unit tests will be provided for both the backend and frontend. Compare your tests to these examples to ensure correctness.
 
-## Fun Prompt 🎯
-Imagine you're building this app for a team of astronauts managing tasks on a space station. Each task is critical to their survival, so your app must be reliable and easy to use. 🚀
 
 ## Deliverables
 1. A working backend and frontend.
 2. Unit tests for both backend and frontend.
 3. A short write-up explaining your approach and any challenges you faced.
-
-## Getting Started
-
-### Backend
-1. Navigate to the `backend` folder.
-2. Run `dotnet new webapi` to create a new .NET project.
-3. Implement the endpoints and unit tests.
-
-### Frontend
-1. Navigate to the `frontend` folder.
-2. Run `npx create-react-app task-manager` to create a new React project.
-3. Build the UI and write unit tests.
-
-### Validation Tests
-- Check the `validation-tests` folder for example tests.
-
-Good luck, and have fun! 🎉
